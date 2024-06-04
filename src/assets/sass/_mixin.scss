@@ -1,0 +1,7 @@
+
+@mixin font($fw, $fz, $lh:1){
+    font-weight: $fw;
+    font-size: $fz + px;
+    line-height: $lh;
+    font-family: 'Livvic';
+}
