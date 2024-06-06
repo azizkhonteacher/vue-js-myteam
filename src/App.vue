@@ -3,7 +3,9 @@
     <header>
       <div class="container">
         <div class="site__logo">
-          <img src="./assets/img/svg/myteam-logo.svg" alt="img" />
+          <a href="#">
+            <img src="./assets/img/svg/myteam-logo.svg" alt="img" />
+          </a>
         </div>
         <div class="site__nav">
           <ul>
@@ -21,6 +23,8 @@
       </div>
     </header>
     
+   <router-view/>
+
     <footer>
       <div class="container">
         <div class="site__footer-nav">
