@@ -1,3 +1,10 @@
+.po-r {
+  position: relative;
+}
+.po-a {
+  position: absolute;
+}
+
 .home__head {
   padding: 129px 0 250px;
   background-color: $bg-1;
@@ -123,12 +130,143 @@
       }
     }
   }
-  .vector-3 {
-    position: absolute;
-    width: 100px;
-    height: 244px;
-    background: url("@/assets/img/vector/vector-3.png") center/contain no-repeat;
-    bottom: 0;
-    right: 0;
+}
+
+.home__deliver {
+  padding: 140px 0;
+  background-color: $bg-4;
+  position: relative;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
   }
+  &-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 89px;
+    text-align: center;
+    h2 {
+      color: #fff;
+      @include font(700, 48, 1);
+      span {
+        color: $c-2;
+      }
+    }
+  }
+  .success__stories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .success__stories-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .quotes {
+      display: inline-block;
+      width: 67px;
+      height: 56px;
+      background: url("@/assets/img/png/quote.png") center/contain no-repeat;
+      transform: translateY(20px);
+    }
+    .item-text {
+      z-index: 1;
+      color: #fff;
+      @include font(600, 15, 1.66);
+      text-align: center;
+      width: 100%;
+    }
+    .people-name {
+      color: $c-2;
+      @include font(700, 18, 1.55);
+      padding-top: 24px;
+    }
+    .people-skill {
+      color: #fff;
+      @include font(500, 13, 1.4);
+      font-style: italic;
+      padding: 2px 0 32px;
+    }
+    .people-img {
+      display: flex;
+      border: 2px solid #c4fffe;
+      width: 64px;
+      height: 64px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      margin-bottom: 11px;
+      overflow: hidden;
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.home__ready {
+  padding: 76px 0;
+  background-color: $bg-5;
+  .card {
+    padding: 0 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-title {
+    color: $c-3;
+    @include font(700, 48, 1);
+  }
+  .contact-as {
+    display: flex;
+    color: $c-3;
+    @include font(600, 18, 1.55);
+    background: inherit;
+    outline: none;
+    border: 2px solid #012f34;
+    padding: 9px 33px 11px 32px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      @include btn-hover-2;
+    }
+  }
+}
+
+.vector-3 {
+  position: absolute;
+  width: 100px;
+  height: 244px;
+  background: url("@/assets/img/vector/vector-3.png") center/contain no-repeat;
+  bottom: 0;
+  right: 0;
+}
+.vector-4 {
+  width: 147px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: url("@/assets/img/vector/vector-4.png") center/contain no-repeat;
+}
+.vector-5 {
+  width: 200px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  background: url("@/assets/img/vector/vector-5.png") center/contain no-repeat;
+}
+.vector-6 {
+  width: 200px;
+  height: 144px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  background: url("@/assets/img/vector/vector-6.png") center/contain no-repeat;
 }

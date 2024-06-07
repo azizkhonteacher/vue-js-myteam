@@ -5,3 +5,12 @@
     line-height: $lh;
     font-family: 'Livvic';
 }
+
+@mixin btn-hover-1{
+    background-color: #fff;
+    color: #014E56;
+}
+@mixin btn-hover-2{
+    background-color: #012f34;
+    color: #fff;
+}

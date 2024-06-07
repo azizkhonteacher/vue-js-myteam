@@ -79,7 +79,7 @@
       </div>
 
       <!-- delivering -->
-      <div class="home__deliver">
+      <div class="home__deliver po-r">
         <div class="container">
             <div class="home__deliver-title">
                 <h2>
@@ -88,17 +88,63 @@
             </div>
 
             <div class="success__stories">
-                <div class="item">
+                <div class="success__stories-item">
                     <div class="quotes"></div>
-                    <p class="item-text"></p>
-                    <h2 class="people-name"></h2>
+                    <p class="item-text">
+                        “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”
+                    </p>
+                    <h2 class="people-name">Kady Baker</h2>
                     <h3 class="people-skill">Product Manager at Bookmark</h3>
                     <div class="people-img">
                         <img src="https://picsum.photos/62/62" alt="">
                     </div>
+
+                </div>
+
+                <div class="success__stories-item">
+                    <div class="quotes"></div>
+                    <p class="item-text">
+                        “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”
+                    </p>
+                    <h2 class="people-name">Kady Baker</h2>
+                    <h3 class="people-skill">Product Manager at Bookmark</h3>
+                    <div class="people-img">
+                        <img src="https://picsum.photos/62/62" alt="">
+                    </div>
+
+                </div>
+
+                <div class="success__stories-item">
+                    <div class="quotes"></div>
+                    <p class="item-text">
+                        “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”
+                    </p>
+                    <h2 class="people-name">Kady Baker</h2>
+                    <h3 class="people-skill">Product Manager at Bookmark</h3>
+                    <div class="people-img">
+                        <img src="https://picsum.photos/62/62" alt="">
+                    </div>
+
                 </div>
             </div>
         </div>
+        <div class="vector-4 po-a"></div>
+        <div class="vector-5 po-a"></div>
+      </div>
+
+      <!-- ready -->
+      <div class="home__ready po-r">
+        <div class="container">
+            <div class="card">
+                <h2 class="home__ready-title">
+                    Ready to get started?
+                </h2>
+                
+                <button class="contact-as">contact us</button>
+            </div>
+        </div>
+
+        <div class="vector-6 po-a"></div>
       </div>
     </div>
   </div>

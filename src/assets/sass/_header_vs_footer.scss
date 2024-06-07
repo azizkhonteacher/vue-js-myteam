@@ -26,6 +26,9 @@ header {
       &:active {
         opacity: 0.8;
       }
+      &:hover{
+        @include btn-hover-1;
+      }
     }
   }
 }
